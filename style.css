@@ -21,8 +21,7 @@ body {
 .title {
   color: bisque;
   font-size: 20px;
-  margin-top: 50%;
-  margin-bottom: 55px;
+  /* margin-bottom: 55px; */
 }
 
 .calculator {
@@ -33,6 +32,9 @@ body {
   justify-content: center;
   text-align: center;
   padding-top: 100px;
+  border-color: 2px solid black;
+  /* border: 2px solid rgb(117, 185, 173); */
+  margin-top: 1%;
 }
 
 #result {
@@ -53,7 +55,6 @@ body {
   display: grid;
   grid-gap: 6px;
   text-align: center;
-
   grid-template-columns: repeat(4, 1fr);
 }
 
