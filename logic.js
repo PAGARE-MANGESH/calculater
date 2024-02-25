@@ -13,3 +13,9 @@ function evaluateExpression() {
     document.getElementById('result').value = result;
 }
 
+
+function removeLastValue() {
+    let removeLastValue = document.getElementById('result').value += value;
+    removeLastValue.pop()
+
+}
