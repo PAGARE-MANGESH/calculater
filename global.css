@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  justify-content: center
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --font-size-7xl: 26px;
+  --font-size-3xl: 22px;
+  --font-size-21xl: 40px;
+
+  /* Colors */
+  --color-darkslategray-100: #373737;
+  --color-gray-100: #fbfbfb;
+  --color-gray-200: rgba(5, 5, 5, 0.3);
+  --color-gray-300: rgba(255, 255, 255, 0.3);
+
+  /* Gaps */
+  --gap-xl: 20px;
+
+  /* Border radiuses */
+  --br-21xl: 40px;
+  --br-11xl: 30px;
+  --br-6xl: 25px;
+
+  /* Effects */
+  --aa: 0px 3px 15px rgba(0, 0, 0, 0.05);
+}

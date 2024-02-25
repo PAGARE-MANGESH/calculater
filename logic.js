@@ -1,21 +1,44 @@
+
+let userInput2
+
 function appendValue(value) {
-    document.getElementById('result').value += value;
+    userInput2 = document.getElementById('result').value += value;
 }
 
+
+let removeresult
+
 function clearResult() {
-    document.getElementById('result').value = '';
+
+    removeresult = document.getElementById('result').value = '';
+
 }
 
 
 function evaluateExpression() {
+
     const expression = document.getElementById('result').value;
+    // const result = on = document.getElementById('result').value;
     const result = eval(expression);
     document.getElementById('result').value = result;
-}
-
-
-function removeLastValue() {
-    let removeLastValue = document.getElementById('result').value += value;
-    removeLastValue.pop()
 
 }
+
+
+
+function popVlue() {
+
+    let userInter = document.getElementById('result').value
+
+    userInter.toString().split('')
+    userInter = userInter.substring(0, userInter.length - 1);
+
+
+    document.getElementById('result').value = userInter
+
+
+    console.log(typeof userInter)
+    console.log(userInter)
+
+}
+
